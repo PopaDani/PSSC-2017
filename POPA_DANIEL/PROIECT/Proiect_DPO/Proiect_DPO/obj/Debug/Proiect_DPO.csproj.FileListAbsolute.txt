@@ -1,0 +1,12 @@
+D:\An4\PSSC\PSSC Proiect Nou\Proiect_DPO\Proiect_DPO\obj\Debug\Proiect_DPO.csproj.CoreCompileInputs.cache
+D:\An4\PSSC\PSSC Proiect Nou\Proiect_DPO\Proiect_DPO\bin\Debug\Proiect_DPO.exe.config
+D:\An4\PSSC\PSSC Proiect Nou\Proiect_DPO\Proiect_DPO\bin\Debug\Proiect_DPO.exe
+D:\An4\PSSC\PSSC Proiect Nou\Proiect_DPO\Proiect_DPO\bin\Debug\Proiect_DPO.pdb
+D:\An4\PSSC\PSSC Proiect Nou\Proiect_DPO\Proiect_DPO\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+D:\An4\PSSC\PSSC Proiect Nou\Proiect_DPO\Proiect_DPO\bin\Debug\Newtonsoft.Json.dll
+D:\An4\PSSC\PSSC Proiect Nou\Proiect_DPO\Proiect_DPO\bin\Debug\RabbitMQ.Client.dll
+D:\An4\PSSC\PSSC Proiect Nou\Proiect_DPO\Proiect_DPO\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+D:\An4\PSSC\PSSC Proiect Nou\Proiect_DPO\Proiect_DPO\bin\Debug\Newtonsoft.Json.xml
+D:\An4\PSSC\PSSC Proiect Nou\Proiect_DPO\Proiect_DPO\bin\Debug\RabbitMQ.Client.xml
+D:\An4\PSSC\PSSC Proiect Nou\Proiect_DPO\Proiect_DPO\obj\Debug\Proiect_DPO.exe
+D:\An4\PSSC\PSSC Proiect Nou\Proiect_DPO\Proiect_DPO\obj\Debug\Proiect_DPO.pdb
