@@ -27,9 +27,10 @@ namespace Proiect_DPO
             MagistralaComenzi.Instanta.Value.Trimite(comandaAdaugaProdus);
 
 
-            /*
             var repo = new  ReadRepository();
-            var produs1 = new Produs();
+            repo.IncarcaListaDeEvenimente();
+           /*
+            *var produs1 = new Produs();
             var comandaCautareProdus = new ComandaCautaProdus();
             comandaCautareProdus.Produs = produs1;
             */

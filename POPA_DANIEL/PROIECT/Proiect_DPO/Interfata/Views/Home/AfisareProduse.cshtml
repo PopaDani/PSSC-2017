@@ -1,0 +1,84 @@
+﻿@model IEnumerable<Interfata.Models.ProdusMVC>
+@{
+    ViewBag.Title = "AfisareProduse";
+}
+
+
+<h2>AfisareProduse</h2>
+<table class="table">
+    <tr>
+        <th>
+           @Html.DisplayNameFor(model => model.CodBare)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Denumire)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Marca)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tip)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Stoc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Pret)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Descriere)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Garantie)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Furnizor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Stare)
+        </th>
+        
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodBare)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Denumire)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Marca)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tip)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Stoc)
+            </td>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.Pret)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descriere)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Garantie)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Furnizor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Stare)
+            </td>
+            <td>
+                @Html.ActionLink("Delete", "Delete", new { @class = "linkStyle", CodBare = item.CodBare.ToString() })
+            </td>
+        </tr>
+    }
+
+</table>

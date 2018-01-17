@@ -10,3 +10,4 @@ D:\An4\PSSC\PSSC Proiect Nou\Proiect_DPO\Proiect_DPO\bin\Debug\Newtonsoft.Json.x
 D:\An4\PSSC\PSSC Proiect Nou\Proiect_DPO\Proiect_DPO\bin\Debug\RabbitMQ.Client.xml
 D:\An4\PSSC\PSSC Proiect Nou\Proiect_DPO\Proiect_DPO\obj\Debug\Proiect_DPO.exe
 D:\An4\PSSC\PSSC Proiect Nou\Proiect_DPO\Proiect_DPO\obj\Debug\Proiect_DPO.pdb
+D:\An4\PSSC\PSSC Proiect Nou\Proiect_DPO\Proiect_DPO\obj\Debug\Proiect_DPO.csprojResolveAssemblyReference.cache

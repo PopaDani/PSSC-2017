@@ -7,7 +7,7 @@
 
 @using (Html.BeginForm("Login", "Home", new { enctype = "multipart/form-data" }))
 {
-    @Html.ValidationSummary(true, "Login failed. Check your login details.");
+   
     <div>
         <fieldset>
             <legend>Login</legend>
@@ -32,4 +32,6 @@
             <input type="submit" value="Log In" />
         </fieldset>
     </div>
+
+    @Html.ValidationSummary(true, "Login failed. Check your login details.");
 }

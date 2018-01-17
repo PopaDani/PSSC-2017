@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "MainPage";
+}
+
+<h2>MainPage</h2>
+
+
+@using (Html.BeginForm("CautaProduse", "Home", new { enctype = "multipart/form-data" }))
+{
+    <input type="submit" value="Cauta Produs">
+}
+<br />
+
+@using (Html.BeginForm("AfisareProduse", "Home", new { enctype = "multipart/form-data" }))
+{
+    <input type="submit" value="Afisare Produse">
+}
+<br />
+
+@using (Html.BeginForm("AdaugaProduse", "Home", new { enctype = "multipart/form-data" }))
+{
+    <input type="submit" value="Adauga Produs">
+}
+<br />
+
+@using (Html.BeginForm("StergereProdus", "Home", new { enctype = "multipart/form-data" }))
+{
+    <input type="submit" value="Stergere Produs">
+}
+<br />
+

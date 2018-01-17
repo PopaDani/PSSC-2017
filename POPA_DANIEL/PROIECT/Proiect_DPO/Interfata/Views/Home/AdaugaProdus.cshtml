@@ -1,0 +1,79 @@
+﻿@model Interfata.Models.ProdusMVC
+@{
+    ViewBag.Title = "AdaugaProdus";
+}
+
+<h2>AdaugaProdus</h2>
+
+@using (Html.BeginForm("AdaugaProdus", "Home", FormMethod.Post, new { @class = "linkStyle", mVC = @Model }))
+{
+    <div>
+        <fieldset>
+            <div class="editor-label">
+                @Html.LabelFor(p => p.CodBare)
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(p => p.CodBare)
+            </div>
+            <div class="editor-label">
+                @Html.LabelFor(p => p.Denumire)
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(p => p.Denumire)
+            </div>
+            <div class="editor-label">
+                @Html.LabelFor(p => p.Marca)
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(p => p.Marca)
+            </div>
+            <div class="editor-label">
+                @Html.LabelFor(p => p.Tip)
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(p => p.Tip)
+            </div>
+            <div class="editor-label">
+                @Html.LabelFor(p => p.Stoc)
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(p => p.Stoc)
+            </div>
+            <div class="editor-label">
+                @Html.LabelFor(p => p.Pret)
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(p => p.Pret)
+            </div>
+            <div class="editor-label">
+                @Html.LabelFor(p => p.Descriere)
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(p => p.Descriere)
+            </div>
+            <div class="editor-label">
+                @Html.LabelFor(p => p.Garantie)
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(p => p.Garantie)
+            </div>
+            <div class="editor-label">
+                @Html.LabelFor(p => p.Furnizor)
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(p => p.Furnizor)
+            </div>
+            <div class="editor-label">
+                @Html.LabelFor(p => p.Stare)
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(p => p.Stare)
+            </div>
+
+            <input type="submit" value="Adauga" />
+        </fieldset>
+    </div>
+}
+
+
+

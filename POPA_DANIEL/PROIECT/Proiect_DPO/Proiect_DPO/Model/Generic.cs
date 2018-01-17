@@ -19,6 +19,12 @@ namespace Proiect_DPO.Model
             _text = text;
         }
 
+        /*
+        public PlainText()
+        {
+
+        }
+        */
         #region override object
         public override string ToString()
         {

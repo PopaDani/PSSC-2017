@@ -1,0 +1,22 @@
+﻿@model Interfata.Models.ProdusMVC
+@{
+    ViewBag.Title = "CautaProdus";
+}
+
+<h2>CautaProdus</h2>
+
+
+@using (Html.BeginForm("CautaProdus", "Home", FormMethod.Post, new { @class = "linkStyle", mVC = @Model }))
+{
+    <div>
+        <fieldset>
+            <div class="editor-label">
+                @Html.LabelFor(p => p.CodBare)
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(p => p.CodBare)
+            </div>
+            <input type="submit" value="Cautare" />
+        </fieldset>
+    </div>
+}

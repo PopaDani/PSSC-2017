@@ -10,8 +10,9 @@ namespace Proiect_DPO
 {
     public class Receive
     {
-        public void PrimesteEveiment()
+        public string PrimesteEveiment()
         {
+            var mesaj = "";
             var factory = new ConnectionFactory() { HostName = "localhost" };
             using (var connection = factory.CreateConnection())
             using (var channel = connection.CreateModel())
@@ -22,7 +23,7 @@ namespace Proiect_DPO
                 consumer.Received += (model, ea) =>
                 {
                     var body = ea.Body;
-                    var message = Encoding.UTF8.GetString(body);
+                    mesaj = Encoding.UTF8.GetString(body);
                     //  Console.WriteLine(" [x] Received {0}", message);
                 };
                 channel.BasicConsume(queue: "hello", autoAck: true, consumer: consumer);
@@ -30,6 +31,7 @@ namespace Proiect_DPO
                 //  Console.WriteLine(" Press [enter] to exit.");
                 // Console.ReadLine();
             }
+            return mesaj;
         }
     }
 }

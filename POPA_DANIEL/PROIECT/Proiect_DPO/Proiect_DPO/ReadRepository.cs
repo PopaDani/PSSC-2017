@@ -96,12 +96,9 @@ namespace Proiect_DPO
                         Produs p = new Produs(new PlainText(tokens[5]), new PlainText(tokens[11]), new PlainText(tokens[17]), (TipProdus)Enum.Parse(typeof(TipProdus), tip), new PlainText(tokens[25]), new PlainText(tokens[31]), new PlainText(tokens[37]), new PlainText(tokens[43]), new PlainText(tokens[49]), (StareProdus)Enum.Parse(typeof(StareProdus), stare));
                        // Produs p = new Produs(new PlainText(tokens[5]), new PlainText(tokens[11]), new PlainText(tokens[17]), 0,  new PlainText(tokens[25]), new PlainText(tokens[31]), new PlainText(tokens[37]), new PlainText(tokens[43]), new PlainText(tokens[49]), 0);
 
-                        //object detalii = JsonConvert.DeserializeObject<MasinaDes.RootObject>(reader["DetaliiEveniment"].ToString());
-                        // object detalii = JsonConvert.DeserializeObject<List<Eveniment>>(String.Format("{0}", reader["DetaliiEveniment"]));
                         produs.Add(p);
                     }
                 }
-
             }
             return produs;
         }

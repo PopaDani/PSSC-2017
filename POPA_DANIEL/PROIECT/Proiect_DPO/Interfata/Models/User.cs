@@ -31,7 +31,7 @@ namespace Interfata.Models
         public bool IsValid(string _username, string _password)
         {
             using (var cn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename" +
-              @"='C:\Users\Andrei\Documents\GitHub\pssc-proiect\IterfataUtilizator\App_Data\Users.mdf';Integrated Security=True"))
+              @"='D:\An4\PSSC\PSSC Proiect Nou\Proiect_DPO\Interfata\App_Data\ProduseDB.mdf';Integrated Security=True"))
             {
                 string _sql = @"SELECT [Username] FROM [dbo].[UsersDB] " +
                        @"WHERE [Username] = @u AND [Password] = @p";
