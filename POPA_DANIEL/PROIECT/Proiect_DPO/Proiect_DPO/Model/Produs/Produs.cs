@@ -10,7 +10,7 @@ using Proiect_DPO.Evenimente;
 
 namespace Proiect_DPO.Model.Produs
 {
-    public class Produs
+    public class Produs : IProdus
     {
         public PlainText CodBare { get; private set; }
         public PlainText Denumire { get; private set; }
@@ -65,6 +65,10 @@ namespace Proiect_DPO.Model.Produs
             Stare = StareProdus.InStoc;
         }
 
+        public string GetCodBare()
+        {
+            return "11";
+        }
         public void StergereProdus(Produs produs)
         {
             if (Stare != StareProdus.InStoc) throw new InvalidOperationException("Nu exista produs pe stoc");

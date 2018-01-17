@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proiect_DPO", "Proiect_DPO\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfata", "Interfata\Interfata.csproj", "{43DF10F5-D7D9-4B9F-B117-C02800CC02FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestDPO", "UnitTestDPO\UnitTestDPO.csproj", "{867DAD4A-70D3-40EF-BF74-C7ED5782DCF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{43DF10F5-D7D9-4B9F-B117-C02800CC02FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43DF10F5-D7D9-4B9F-B117-C02800CC02FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43DF10F5-D7D9-4B9F-B117-C02800CC02FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{867DAD4A-70D3-40EF-BF74-C7ED5782DCF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{867DAD4A-70D3-40EF-BF74-C7ED5782DCF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{867DAD4A-70D3-40EF-BF74-C7ED5782DCF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{867DAD4A-70D3-40EF-BF74-C7ED5782DCF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

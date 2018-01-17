@@ -16,6 +16,7 @@ namespace Proiect_DPO
         // D:\An4\PSSC\PSSC Proiect Nou\Proiect_DPO\Interfata\App_Data\ProduseDB.mdf
         string connection = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename" +
              @"='D:\An4\PSSC\PSSC Proiect Nou\Proiect_DPO\Interfata\App_Data\ProduseDB.mdf';Integrated Security=True";
+
         public bool StergereProdus(string idRadacina)
         {
             using (var cn = new SqlConnection(connection))

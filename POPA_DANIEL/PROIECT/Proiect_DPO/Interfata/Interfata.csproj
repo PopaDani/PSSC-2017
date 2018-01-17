@@ -206,7 +206,12 @@
     <Content Include="Views\Home\AdaugaProdus.cshtml" />
     <Content Include="Views\Home\StergereProduse.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Proiect_DPO\Proiect_DPO.csproj">
+      <Project>{AC8AC8E8-F375-48B7-814E-650980085FB3}</Project>
+      <Name>Proiect_DPO</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
   </ItemGroup>
@@ -219,12 +224,6 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Proiect_DPO\Proiect_DPO.csproj">
-      <Project>{AC8AC8E8-F375-48B7-814E-650980085FB3}</Project>
-      <Name>Proiect_DPO</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -75,6 +75,7 @@
     <Compile Include="Evenimente\TipEveniment.cs" />
     <Compile Include="Model\Generic.cs" />
     <Compile Include="Model\Produs\EvenimentNecunoscutException.cs" />
+    <Compile Include="Model\Produs\IProdus.cs" />
     <Compile Include="Model\Produs\Produs.cs" />
     <Compile Include="Model\Produs\ProdusDescriere.cs" />
     <Compile Include="Model\Produs\StareProdus.cs" />
@@ -90,6 +91,5 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -19,8 +19,8 @@ namespace Proiect_DPO
             MagistralaEvenimente.Instanta.Value.InregistreazaProcesatoareStandard();
             MagistralaEvenimente.Instanta.Value.InchideInregistrarea();
 
-            var produs = new Produs(new PlainText("9"), new PlainText("suc"), new PlainText("Fanta"), TipProdus.Alimentar, new PlainText("250"), new PlainText("4"),
-                new PlainText("portocale"), new PlainText("-"), new PlainText("Pepsi Romania"), StareProdus.InStoc);
+            var produs = new Produs(new PlainText("7"), new PlainText("suc"), new PlainText("Fanta"), TipProdus.Alimentar, new PlainText("150"), new PlainText("4"),
+                new PlainText("struguri"), new PlainText("-"), new PlainText("Pepsi Romania"), StareProdus.InStoc);
 
             var comandaAdaugaProdus = new ComandaAdaugaProdus();
             comandaAdaugaProdus.Produs1 = produs;

@@ -1,8 +1,6 @@
 ﻿using Proiect_DPO.Comenzi;
 using Proiect_DPO.Evenimente;
 using Proiect_DPO.Model.Produs;
-using Proiect_DPO.Comenzi;
-using Proiect_DPO.Evenimente;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +11,7 @@ using Interfata.App_Start;
 using Proiect_DPO.Model;
 using Interfata.Models;
 using Proiect_DPO;
-using Interfata.Models;
+
 
 namespace Interfata.Controllers
 {
@@ -29,8 +27,8 @@ namespace Interfata.Controllers
         }
         public ActionResult Index()
         {
-            //  return View("Login");
-            return View("MainPage");
+            return View("Login");
+           // return View("MainPage");
         }
 
         public ActionResult About()
